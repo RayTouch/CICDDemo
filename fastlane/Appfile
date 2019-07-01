@@ -1,0 +1,8 @@
+app_identifier("com.KSD.CICDDemo") # The bundle identifier of your app
+apple_id("2014kcd@gmail.com") # Your Apple email address
+
+itc_team_id("88835801") # App Store Connect Team ID
+team_id("DTR5DTQ2DE") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
