@@ -25,5 +25,8 @@ platform :ios do
   end
   lane :test do
     scan(scheme: "CICDDemo")
+    build_app(scheme: "CICDDemo",
+              workspace: "CICDDemo.xcworkspace")
+    upload_to_testflight
   end
 end
