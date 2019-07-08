@@ -33,7 +33,7 @@ class CICDDemoTests: XCTestCase {
         // This is an example of a performance test case.
         
         let p = vc?.testNumber(first: 50, second: 50) ?? 0
-        XCTAssert(p == 100)
+        XCTAssert(p == 101)
     }
 
 }
