@@ -24,8 +24,6 @@ platform :ios do
     upload_to_testflight
   end
   lane :test do
-    run_tests(scheme: "CICDDemo",
-              devices: ["iPhone 6s"],
-              workspace: "CICDDemo.xcworkspace")
+    scan(scheme: "CICDDemo")
   end
 end
