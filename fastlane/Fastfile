@@ -19,7 +19,12 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
     increment_build_number
-    build_app(scheme: "CICDDemo")
+    build_app(scheme: "CICDDemo",
+              workspace: "CICDDemo.xcworkspace")
     upload_to_testflight
+  end
+  lane :test do
+    run_tests(scheme: "CICDDemo",
+              workspace: "CICDDemo.xcworkspace")
   end
 end

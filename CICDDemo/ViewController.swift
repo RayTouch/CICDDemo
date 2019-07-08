@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         self.searchBeacon()
     }
     
+    func testNumber(first: Int, second: Int) -> Int {
+        return first + second + 1
+    }
+    
     /// search iBeacon
     private func searchBeacon() {
         guard let uuid = UUID(uuidString: "A77A1B68-49A7-4DBF-914C-760D07FBB87B") else { return }
