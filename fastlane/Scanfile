@@ -18,10 +18,6 @@ skip_build(true)
 scheme("CICDDemo")
 # 測試設備
 devices(["iPhone 6s"])
-# 錯誤回報
-slack_url("https://hooks.slack.com/services/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")
-# 錯誤回報群組
-slack_channel("#error-report")
 
 # 測試失敗是否停止打包
 fail_build(true)
