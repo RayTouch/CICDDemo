@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9631946422C6156E004AB33E"
+               BlueprintIdentifier = "966CDAEA22D34B1D00CFE199"
                BuildableName = "CICDDemoUITests.xctest"
                BlueprintName = "CICDDemoUITests"
                ReferencedContainer = "container:CICDDemo.xcodeproj">

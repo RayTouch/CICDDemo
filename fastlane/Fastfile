@@ -29,4 +29,7 @@ platform :ios do
               workspace: "CICDDemo.xcworkspace")
     upload_to_testflight
   end
+  lane :uiTest do
+    scan(scheme: "CICDDemo")
+  end
 end

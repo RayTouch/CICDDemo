@@ -24,17 +24,37 @@
                                     <constraint firstAttribute="width" secondItem="vqo-XP-jUd" secondAttribute="height" id="eLm-P4-Qzd"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfR-rY-TIH">
+                                <rect key="frame" x="20" y="700" width="374" height="30"/>
+                                <state key="normal" title="點擊"/>
+                                <connections>
+                                    <action selector="btnTest:" destination="2YI-jP-K8w" eventType="touchUpInside" id="B5L-HK-fc0"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83b-6K-SgM">
+                                <rect key="frame" x="15" y="206" width="384" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vqo-XP-jUd" firstAttribute="centerX" secondItem="hUE-SC-528" secondAttribute="centerX" id="3h0-Uz-KZQ"/>
+                            <constraint firstItem="kfR-rY-TIH" firstAttribute="leading" secondItem="hOr-FP-QWD" secondAttribute="leading" constant="20" id="Awm-1s-hrw"/>
+                            <constraint firstItem="kfR-rY-TIH" firstAttribute="top" secondItem="vqo-XP-jUd" secondAttribute="bottom" constant="60" id="G08-1d-nya"/>
                             <constraint firstItem="vqo-XP-jUd" firstAttribute="centerY" secondItem="hUE-SC-528" secondAttribute="centerY" id="Iiy-Dq-ac6"/>
+                            <constraint firstItem="kfR-rY-TIH" firstAttribute="centerX" secondItem="hUE-SC-528" secondAttribute="centerX" id="SyJ-G9-lgu"/>
+                            <constraint firstItem="vqo-XP-jUd" firstAttribute="top" secondItem="83b-6K-SgM" secondAttribute="bottom" constant="20" id="XuP-Vu-SC8"/>
                             <constraint firstItem="vqo-XP-jUd" firstAttribute="leading" secondItem="hOr-FP-QWD" secondAttribute="leading" constant="15" id="asg-Ym-LDM"/>
+                            <constraint firstItem="83b-6K-SgM" firstAttribute="centerX" secondItem="hUE-SC-528" secondAttribute="centerX" id="bfc-j7-Oqp"/>
+                            <constraint firstItem="83b-6K-SgM" firstAttribute="leading" secondItem="hOr-FP-QWD" secondAttribute="leading" constant="15" id="sKB-1r-b1h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hOr-FP-QWD"/>
                     </view>
                     <connections>
                         <outlet property="showImageView" destination="vqo-XP-jUd" id="WmI-xe-lWO"/>
+                        <outlet property="textField" destination="83b-6K-SgM" id="N1e-sB-mOB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mga-0b-Ao3" userLabel="First Responder" sceneMemberID="firstResponder"/>

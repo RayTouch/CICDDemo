@@ -17,10 +17,18 @@
 		9631945F22C6156E004AB33E /* CICDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9631945E22C6156E004AB33E /* CICDDemoTests.swift */; };
 		96337ADE22CC6ED200364C2D /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96337ADD22CC6ED200364C2D /* ShowImageViewController.swift */; };
 		966A8F0322C9E1650010438A /* StartBeaconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A8F0222C9E1650010438A /* StartBeaconViewController.swift */; };
+		966CDAEE22D34B1D00CFE199 /* CICDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CDAED22D34B1D00CFE199 /* CICDDemoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9631945B22C6156E004AB33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9631943E22C6156D004AB33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9631944522C6156D004AB33E;
+			remoteInfo = CICDDemo;
+		};
+		966CDAF022D34B1D00CFE199 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9631943E22C6156D004AB33E /* Project object */;
 			proxyType = 1;
@@ -50,6 +58,9 @@
 		9631946B22C6156E004AB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96337ADD22CC6ED200364C2D /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
 		966A8F0222C9E1650010438A /* StartBeaconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartBeaconViewController.swift; sourceTree = "<group>"; };
+		966CDAEB22D34B1D00CFE199 /* CICDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966CDAED22D34B1D00CFE199 /* CICDDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDDemoUITests.swift; sourceTree = "<group>"; };
+		966CDAEF22D34B1D00CFE199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9C56D8FF74B74662ECD1FA8 /* Pods_CICDDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5423F81547CC38FF87B53FF /* Pods-CICDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDDemoTests/Pods-CICDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBB21AE6922025EB4598D473 /* Pods-CICDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDDemo.release.xcconfig"; path = "Target Support Files/Pods-CICDDemo/Pods-CICDDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		966CDAE822D34B1D00CFE199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +109,7 @@
 				9631944822C6156D004AB33E /* CICDDemo */,
 				9631945D22C6156E004AB33E /* CICDDemoTests */,
 				9631946822C6156E004AB33E /* CICDDemoUITests */,
+				966CDAEC22D34B1D00CFE199 /* CICDDemoUITests */,
 				9631944722C6156D004AB33E /* Products */,
 				E5C056F0B2115FBAF7EDEA1B /* Pods */,
 				45CC2AE0DB2F90425C2ECC7B /* Frameworks */,
@@ -102,6 +121,7 @@
 			children = (
 				9631944622C6156D004AB33E /* CICDDemo.app */,
 				9631945A22C6156E004AB33E /* CICDDemoTests.xctest */,
+				966CDAEB22D34B1D00CFE199 /* CICDDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +155,15 @@
 			children = (
 				9631946922C6156E004AB33E /* CICDDemoUITests.swift */,
 				9631946B22C6156E004AB33E /* Info.plist */,
+			);
+			path = CICDDemoUITests;
+			sourceTree = "<group>";
+		};
+		966CDAEC22D34B1D00CFE199 /* CICDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				966CDAED22D34B1D00CFE199 /* CICDDemoUITests.swift */,
+				966CDAEF22D34B1D00CFE199 /* Info.plist */,
 			);
 			path = CICDDemoUITests;
 			sourceTree = "<group>";
@@ -193,6 +222,24 @@
 			productReference = 9631945A22C6156E004AB33E /* CICDDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		966CDAEA22D34B1D00CFE199 /* CICDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966CDAF222D34B1D00CFE199 /* Build configuration list for PBXNativeTarget "CICDDemoUITests" */;
+			buildPhases = (
+				966CDAE722D34B1D00CFE199 /* Sources */,
+				966CDAE822D34B1D00CFE199 /* Frameworks */,
+				966CDAE922D34B1D00CFE199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966CDAF122D34B1D00CFE199 /* PBXTargetDependency */,
+			);
+			name = CICDDemoUITests;
+			productName = CICDDemoUITests;
+			productReference = 966CDAEB22D34B1D00CFE199 /* CICDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +254,10 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					9631945922C6156E004AB33E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9631944522C6156D004AB33E;
+					};
+					966CDAEA22D34B1D00CFE199 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 9631944522C6156D004AB33E;
 					};
@@ -227,6 +278,7 @@
 			targets = (
 				9631944522C6156D004AB33E /* CICDDemo */,
 				9631945922C6156E004AB33E /* CICDDemoTests */,
+				966CDAEA22D34B1D00CFE199 /* CICDDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +295,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9631945822C6156E004AB33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966CDAE922D34B1D00CFE199 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,6 +394,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		966CDAE722D34B1D00CFE199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966CDAEE22D34B1D00CFE199 /* CICDDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -342,6 +409,11 @@
 			isa = PBXTargetDependency;
 			target = 9631944522C6156D004AB33E /* CICDDemo */;
 			targetProxy = 9631945B22C6156E004AB33E /* PBXContainerItemProxy */;
+		};
+		966CDAF122D34B1D00CFE199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9631944522C6156D004AB33E /* CICDDemo */;
+			targetProxy = 966CDAF022D34B1D00CFE199 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -567,6 +639,62 @@
 			};
 			name = Release;
 		};
+		966CDAF322D34B1D00CFE199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTR5DTQ2DE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+				);
+				INFOPLIST_FILE = CICDDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KSD.CICDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CICDDemo;
+			};
+			name = Debug;
+		};
+		966CDAF422D34B1D00CFE199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTR5DTQ2DE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+				);
+				INFOPLIST_FILE = CICDDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KSD.CICDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CICDDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,6 +721,15 @@
 			buildConfigurations = (
 				9631947222C6156E004AB33E /* Debug */,
 				9631947322C6156E004AB33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966CDAF222D34B1D00CFE199 /* Build configuration list for PBXNativeTarget "CICDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966CDAF322D34B1D00CFE199 /* Debug */,
+				966CDAF422D34B1D00CFE199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
