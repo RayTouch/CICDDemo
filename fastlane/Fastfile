@@ -32,4 +32,7 @@ platform :ios do
   lane :uiTest do
     scan(scheme: "CICDDemo")
   end
+  lane :unitTest do
+    scan(scheme: "CICDDemo")
+  end
 end
