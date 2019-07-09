@@ -17,5 +17,7 @@ skip_build(true)
 
 scheme("CICDDemo")
 devices(["iPhone 6s"])
+slack_url("https://ksdtw.slack.com/messages/CLAHANK0E/")
+slack_channel("#channel")
 
 clean(true)
