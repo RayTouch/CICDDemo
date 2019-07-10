@@ -30,11 +30,11 @@ class CICDDemoUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        let app = XCUIApplication()
-        app.buttons["點擊"].tap()
-        app.otherElements.containing(.button, identifier:"點擊").children(matching: .textField).element.tap()
-        app/*@START_MENU_TOKEN@*/.keys["delete"].press(forDuration: 9.9);/*[[".keyboards",".keys[\"刪除\"]",".tap()",".press(forDuration: 9.9);",".keys[\"delete\"]"],[[[-1,4,2],[-1,1,2],[-1,0,1]],[[-1,4,2],[-1,1,2]],[[-1,3],[-1,2]]],[0,0]]@END_MENU_TOKEN@*/
-        app.otherElements.containing(.button, identifier:"點擊").element.tap()
+//        let app = XCUIApplication()
+//        app.buttons["點擊"].tap()
+//        app.otherElements.containing(.button, identifier:"點擊").children(matching: .textField).element.tap()
+//        app/*@START_MENU_TOKEN@*/.keys["delete"].press(forDuration: 9.9);/*[[".keyboards",".keys[\"刪除\"]",".tap()",".press(forDuration: 9.9);",".keys[\"delete\"]"],[[[-1,4,2],[-1,1,2],[-1,0,1]],[[-1,4,2],[-1,1,2]],[[-1,3],[-1,2]]],[0,0]]@END_MENU_TOKEN@*/
+//        app.otherElements.containing(.button, identifier:"點擊").element.tap()
         
     }
 
