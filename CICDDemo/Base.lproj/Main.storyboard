@@ -61,6 +61,34 @@
             </objects>
             <point key="canvasLocation" x="-1610" y="116"/>
         </scene>
+        <!--Second View Controller-->
+        <scene sceneID="xTy-xJ-NrK">
+            <objects>
+                <viewController storyboardIdentifier="second" id="cFd-O3-Qsg" customClass="SecondViewController" customModule="CICDDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="847-Pf-1bh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOW-as-jem">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="cFd-O3-Qsg" eventType="touchUpInside" id="7jO-js-Hhg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gOW-as-jem" firstAttribute="centerX" secondItem="847-Pf-1bh" secondAttribute="centerX" id="FVL-ZG-1ct"/>
+                            <constraint firstItem="gOW-as-jem" firstAttribute="centerY" secondItem="847-Pf-1bh" secondAttribute="centerY" id="kvD-jM-mjZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BQh-iH-ckC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xE1-Lg-EpV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1610" y="792"/>
+        </scene>
         <!--Start Beacon View Controller-->
         <scene sceneID="PlW-cb-cXf">
             <objects>

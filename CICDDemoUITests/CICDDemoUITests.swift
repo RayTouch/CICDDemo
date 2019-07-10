@@ -38,4 +38,11 @@ class CICDDemoUITests: XCTestCase {
         
     }
 
+    func testPresent() {
+        
+        let app = XCUIApplication()
+        app.buttons["點擊"].tap()
+        app.buttons["Button"].tap()
+        
+    }
 }

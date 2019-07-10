@@ -18,6 +18,7 @@
 		96337ADE22CC6ED200364C2D /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96337ADD22CC6ED200364C2D /* ShowImageViewController.swift */; };
 		966A8F0322C9E1650010438A /* StartBeaconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A8F0222C9E1650010438A /* StartBeaconViewController.swift */; };
 		966CDAEE22D34B1D00CFE199 /* CICDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CDAED22D34B1D00CFE199 /* CICDDemoUITests.swift */; };
+		966CDAF622D571C000CFE199 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CDAF522D571C000CFE199 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		966CDAEB22D34B1D00CFE199 /* CICDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966CDAED22D34B1D00CFE199 /* CICDDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDDemoUITests.swift; sourceTree = "<group>"; };
 		966CDAEF22D34B1D00CFE199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966CDAF522D571C000CFE199 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D9C56D8FF74B74662ECD1FA8 /* Pods_CICDDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5423F81547CC38FF87B53FF /* Pods-CICDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDDemoTests/Pods-CICDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBB21AE6922025EB4598D473 /* Pods-CICDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDDemo.release.xcconfig"; path = "Target Support Files/Pods-CICDDemo/Pods-CICDDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				9631945522C6156E004AB33E /* Info.plist */,
 				966A8F0222C9E1650010438A /* StartBeaconViewController.swift */,
 				96337ADD22CC6ED200364C2D /* ShowImageViewController.swift */,
+				966CDAF522D571C000CFE199 /* SecondViewController.swift */,
 			);
 			path = CICDDemo;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				9631944C22C6156D004AB33E /* ViewController.swift in Sources */,
 				966A8F0322C9E1650010438A /* StartBeaconViewController.swift in Sources */,
 				9631944A22C6156D004AB33E /* AppDelegate.swift in Sources */,
+				966CDAF622D571C000CFE199 /* SecondViewController.swift in Sources */,
 				96337ADE22CC6ED200364C2D /* ShowImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
