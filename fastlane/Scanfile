@@ -17,7 +17,7 @@ skip_build(true)
 
 scheme("CICDDemo")
 # 測試設備
-devices(["iPhone 6s"])
+device("iPhone 6s")
 
 # 測試失敗是否停止打包
 fail_build(true)
@@ -33,6 +33,6 @@ slack_url("https://hooks.slack.com/services/T0R4E6Q79/BCTC64EAE/sL7XGcT483uztFJn
 # slack channel name
 slack_channel("#error-report")
 # 顯示到 slack 的訊息
-slack_message("測試錯誤")
-
+slack_message("測試報告 http://59.127.192.111:8888/job/iOS_CDDemo/ws/fastlane/test_output/report.html")
+# 自動開啟測試報告 (只能在 local 端才會開啟)
 open_report(true)
