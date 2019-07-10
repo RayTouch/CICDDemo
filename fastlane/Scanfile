@@ -27,3 +27,12 @@ clean(true)
 output_types("html")
 # 輸出檔案
 output_files("report.html")
+
+# slack webhook url
+slack_url("https://hooks.slack.com/services/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")
+# slack channel name
+slack_channel("#error-report")
+# 顯示到 slack 的訊息
+slack_message("測試錯誤")
+
+open_report(true)

@@ -27,26 +27,4 @@ platform :ios do
   lane :test do
     scan(scheme: "CICDDemo")
   end
-
-  error do |lane, exception|
-    slack(
-      slack_url: "https://hooks.slack.com/services/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",
-      channel: "#error-report",
-      message: "錯誤",
-      success: false,
-      #payload: { "Output" => exception.message },
-      attachment_properties: {
-        fields: [
-          {
-            title: "Error Message",
-            value: exception
-          },
-          {
-            title: "錯誤報告",
-            value: "http://59.127.192.111:8888/job/iOS_CDDemo/ws/fastlane/test_output/report.html"
-          }
-        ]
-      }
-    )
-  end
 end
